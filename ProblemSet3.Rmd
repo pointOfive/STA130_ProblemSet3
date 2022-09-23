@@ -19,7 +19,7 @@ knitr::opts_chunk$set(eval=TRUE, include=TRUE, echo=TRUE, message=TRUE, warning=
 
 # Instructions
 
-Complete the exercises in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/253019/assignments/782402) on September 29 by 5:00 p.m. ET. 
+Complete the exercises in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/277998/assignments/910604) on Thursday, September 29 by 5:00 p.m. ET. 
 
 
 # Part 1: More Olympics Data
@@ -60,6 +60,11 @@ glimpse(oly12)
 #### Hint: You can see all the possible values for the `Sport` variable with `levels(oly12$Sport)`, and count the number of possible levels with `nlevels(oly12$Sport)`.
 
 ### (d) Determine the number of athletes who competed in ANY gymnastic (`Gymnastics - Artistic`, `Gymnastics - Rhythmic`, `Trampoline`) or ANY pool sports (`Diving`, `Swimming`, `Synchronised Swimming`, and `Water Polo`) 
+
+```{r}
+# Type your code here
+
+```
 
 #### Hint: As indicated on [stackoverflow](https://stackoverflow.com/questions/25647470/filter-multiple-values-on-a-string-column-in-dplyr), the `%in%` comparision operator could be useful here with `allGymnastics <- c("Gymnastics - Artistic", "Gymnastics - Rhythmic", "Trampoline")` and `allWaterPool <- c("Diving", "Swimming", "Synchronised Swimming", "Water Polo")` and `filter(Sport %in% allGymnastics | Sport %in% allWaterPool)`.
 
@@ -137,7 +142,7 @@ glimpse(oly12)
 ```
 
 
-### (c)  Find the `Name`, `Age`, `Sport`, and `Event` for the 6 youngest and 6 oldest competitors who won gold medals at the 2012 olympics.
+### (c)  Find the `Name`, `Age`, `Sport`, and `Event` for the 6 youngest and 6 oldest competitors who won gold medals at the 2012 olympics. [This can be run as two pieces of code rather than one piece of combined code].
 
 ```{r}
 # Type your code here 
@@ -208,15 +213,15 @@ You don't need to cite any outside references for your report to your boss, but 
 You may complete these questions for practice if you wish.
 ***You are not required to complete these questions as they ARE NOT included as part of your mark.***
 
-```{r}
-library(tidyverse) # Load the tidyverse package so it is available to use 
-books <- read.csv("amazonbooks.csv")
-```
-
 ## Question 5: Amazon Books
 
 The code below reads in data about [books sold on Amazon](https://dasl.datadescription.com/datafile/amazon-books/).  
 - Note that the height (`Height`), width (`Width`), and thickness (`Thick`) of books in this data frame are measured in inches.
+
+```{r}
+library(tidyverse) # Load the tidyverse package so it is available to use 
+books <- read.csv("amazonbooks.csv")
+```
 
 ### (a) What is the name of the book(s) with the smallest number of pages in this sample of books, and how many pages does it have?
 ```{r}
@@ -278,18 +283,21 @@ glimpse(titanic)
 ### (c) Calculate the proportion of deaths for the following groups of passengers.  
 
 - For men, women, and children:
+
 ```{r}
 # Type your code here 
 
 ```
 
 - For passengers aged between 25-40 years of age:
+
 ```{r}
 # Type your code here 
 
 ```
 
 - For men, women, and children among the passengers who paid more than 50 British pounds for their tickets: 
+
 ```{r}
 # Type your code here 
 
@@ -323,27 +331,38 @@ glimpse(titanic)
 
 ```
 
+*REPLACE THIS TEXT WITH YOUR ANSWER*
+
 ### (g) What are the names of the passengers with the top 4 most expensive tickets? Did these passengers survive the accident?
 ```{r}
 # Type your code here
 
 ```
 
+*REPLACE THIS TEXT WITH YOUR ANSWER*
+
 ### (h) In this question, you will compare the distribution of ticket prices for survivors and non-survivors of the Titanic using both visualizations and summary tables.
 
 - Construct two histograms to visualize the distribution of ticket prices for survivors and non-survivors (i.e. one histogram for survivors and one for non-survivors). Write 2-3 sentences comparing the two distributions based on these plots.
+
 ```{r, fig.width=6, fig.height=3}
 # Type your code here
 
 ```
 
+*REPLACE THIS TEXT WITH YOUR ANSWER*
+
 - Construct a pair of boxplots (in the same figure) to visualize the distribution of ticket prices for survivors and non-survivors. Write 2-3 sentences comparing the two distributions based on these plots.
+
 ```{r}
 # Type your code here
 
 ```
 
+*REPLACE THIS TEXT WITH YOUR ANSWER*
+
 - Construct a summary table with the minimum, first quartile, median, mean, third quartile, and maximum ticket price for survivors and non-survivors.  
+
 ```{r}
 #### Example code to demo quantile() function and is.na ####
 x <- c(1,2,3,4,5,6,NA,10)
