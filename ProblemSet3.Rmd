@@ -161,7 +161,8 @@ This is a quick report for your boss, so use full sentences and communicate in a
 - ***Avoid Analysis Paralysis***: this is envisioned as a 30 minute exercise, so you don't have time to exhaustively explore every aspect of the data set. 
 -	***Avoid Writer's Block***: this is envisioned as a 200-400 word exercise, so quickly find something you can communicate and write about.
 
-### (a) Watch this [7-minute video introduction to hedging](https://q.utoronto.ca/courses/253019/pages/writing-skills-videos-m3-problem-set).
+### (a) Watch this [7-minute video introduction to hedging](https://q.utoronto.ca/courses/277998/pages/writing-skills-videos-week-3-problem-set).
+
 
 Hedging is helpful whenever you can't say something is 100% one way or another, as is often the case.
 In statistics, hedging should always be used with respect to the limitations of data and the strength and generalizability of the conclusions.
@@ -172,7 +173,7 @@ In statistics, hedging should always be used with respect to the limitations of 
 
 ### (d) Provide one or two clearly labeled summary tables addressing interesting features of athletes' ages. 
 
-### (e) Watch this [8-minute video introduction to plagiarism](https://q.utoronto.ca/courses/253019/pages/writing-skills-videos-m3-problem-set).
+### (e) Watch this [8-minute video introduction to plagiarism](https://q.utoronto.ca/courses/277998/pages/writing-skills-videos-week-3-problem-set).
 
 You don't need to cite any outside references for your report to your boss, but you will be referring to your own created figures and tables. We'll use this as an excuse to get started early thinking about this important topic, and also use it as an exercise to start getting into the right referencing habits.  It's easy and natural and makes your writing better (not mention avoids potential serious academic integrity violations...)
 
