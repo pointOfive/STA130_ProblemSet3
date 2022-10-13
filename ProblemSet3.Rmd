@@ -111,7 +111,7 @@ glimpse(oly12)
 
 *REPLACE THIS TEXT WITH YOUR ANSWER*
 
-### (b) Create a new variable called `total_medals` and create a new tibble called `oly12_OneMedalClub` that contains athletes who won exactly one medal at the 2012 olympics.
+### (b) Create a new variable called `medal_points` that awards 3 points for a gold, 2 for a silver, and 1 for a bronze; and create a new tibble called `oly12_OneMedalClub` that contains athletes who won exactly one medal at the 2012 olympics.
 
 ```{r}
 # Type your code here
